@@ -52,3 +52,5 @@ highlighter: rouge
 sass:
   sass_dir: assets/scss
   style: compressed
+gems:
+- jekyll-menus

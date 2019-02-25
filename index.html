@@ -1,6 +1,10 @@
 ---
 ---
-
+<!-- TODO:: Logo, Nav menu(contact[map, info], about us), listing hover effect change 
+	sale: ფასდაკლება
+	out of stock: ამოწურულია
+	move to configuration
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,7 +43,7 @@
 									{% if item['Is in stock'] %}
 
 										{% if item['Is in sale'] %}
-											<div class="corner-ribbon">SALE</div>
+											<div class="corner-ribbon red">SALE</div>
 										{% endif %}
 
 										{% if item.price %}
